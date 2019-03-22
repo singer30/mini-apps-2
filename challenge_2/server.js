@@ -12,8 +12,8 @@ app.use(
 )
 app.use(bodyParser.json())
 
-app.get('/api/bitCoin', (req, res) => {
-	request('https://api.coindesk.com/v1/bpi/historical/close.json?start=2018-01-01&end=2018-12-31', function (error, response, body) {
+app.get('/api/bitCoin/:year', (req, res) => {
+	request(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${req.params.year}-01-01&end=${req.params.year}-12-31`, function (error, response, body) {
 		if (!error && response.statusCode == 200) {
 			res.send(body)
 		} else  {
