@@ -25,7 +25,7 @@ class Edit extends React.Component {
       return (
         <div>
           <EditBox />
-          <input type='submit' value='Submit Changes'/>
+          <input type='submit' value='Submit changes'/>
         </div>
       )
     }
