@@ -1,0 +1,33 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 25px;
+}
+
+#newBtn {
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: lightskyblue;
+  border-radius: 15px;
+}
+
