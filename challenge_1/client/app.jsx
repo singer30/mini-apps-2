@@ -72,7 +72,7 @@ class App extends React.Component {
           }
         </div>
 
-        <ReactPaginate previousLabel={"previous"}
+        <ReactPaginate previousLabel={"previous"} // need to fix funky mapping bug at bottom of app
              nextLabel={"next"}
              breakLabel={<a href="">...</a>}
              breakClassName={"break-me"}
